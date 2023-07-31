@@ -1,0 +1,17 @@
+t1=(10,20,30,40,'abc',40.5)
+print(t1[0:4])
+s1={10,20,30,40,'hello'}
+print(type(s1))
+s1.add(100)
+print(s1)
+s1.remove(20)
+print(s1)
+d1={101:'abc',102:'def',103:'xyz'}
+print(type(d1))
+print(d1[101])
+d1[104]='pqr'
+print(d1)
+d1[102]='stu'
+print(d1)
+d1.pop(102)
+print(d1)
