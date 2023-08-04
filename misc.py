@@ -13,13 +13,25 @@
 
 
 ##########################
-L=["Apple","78","970.03"]
-while True:
-    response = input("Enter a number: ")
-    if response == "quit":
-       break
-    else:
-        L.append(response)
-print(L)
+##L=["Apple","78","970.03"]
+#while True:
+   # response = input("Enter a number: ")
+   # if response == "quit":
+      # break
+   # else:
+        #L.append(response)
+#print(L)
+######question 1####
+
+a=['python','java','ruby','move','c++','go','c','R','Swift','per']
+print (a)
+a1=[1,2,3,4,5,6,7,8]
+
+print(a1)
+
+
+for i in a1:
+    print(a[i])
+
 
 
