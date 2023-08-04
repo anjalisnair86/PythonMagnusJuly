@@ -12,3 +12,12 @@ for i in L1:
     if(i%5==0):
         b.append(i)
         print(b)
+        ##########question 4#####
+        L=["Apple","78","970.03"]
+while True:
+    response = input("Enter a number: ")
+    if response == "quit":
+       break
+    else:
+        L.append(response)
+print(L)

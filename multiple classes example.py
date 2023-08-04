@@ -38,16 +38,16 @@
 #obj1.m1()
 #obj1.m2()
 #####multy layer inheritance####
-class Father:
-    def m1(self):
-        print("car")
-class Mother(Father):
-    def m2(self):
-        print("house")
-class Son(Mother):
-    def m3(self):
-            print()
-obj1=Son()
-obj1.m1()
-obj1.m2()
-obj1.m3()
+#class Father:
+  #  def m1(self):
+      #  print("car")
+#class Mother(Father):
+    #def m2(self):
+        #print("house")
+#class Son(Mother):
+   # def m3(self):
+           # print()
+#obj1=Son()
+#obj1.m1()
+#obj1.m2()
+#obj1.m3()
