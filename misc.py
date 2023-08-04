@@ -22,16 +22,16 @@
         #L.append(response)
 #print(L)
 ######question 1####
-
-a=['python','java','ruby','move','c++','go','c','R','Swift','per']
-print (a)
-a1=[1,2,3,4,5,6,7,8]
-
+''''''''
+a=['python', 'java', 'ruby', 'move', 'c++', 'go', 'c', 'R', 'Swift', 'perl']
+print(a)
+a1=[1,2,3,4,5,6,7,8,9,10]
 print(a1)
 
 
 for i in a1:
     print(a[i])
+
 
 
 
