@@ -25,12 +25,12 @@
 ''''''''
 a=['python', 'java', 'ruby', 'move', 'c++', 'go', 'c', 'R', 'Swift', 'perl']
 print(a)
-a1=[1,2,3,4,5,6,7,8,9,10]
+a1=[1,2,3]
 print(a1)
 
 
 for i in a1:
-    print(a[i])
+    print(a[i-1])
 
 
 
