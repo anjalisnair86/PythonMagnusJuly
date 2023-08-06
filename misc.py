@@ -21,16 +21,40 @@
    # else:
         #L.append(response)
 #print(L)
-######question 1####
-''''''''
-a=['python', 'java', 'ruby', 'move', 'c++', 'go', 'c', 'R', 'Swift', 'perl']
-print(a)
-a1=[1,2,3]
-print(a1)
+######question 1##
+courses=["math","science","history"]
+print(courses[2])
+##length of list##
+print(len(courses))
+####last element in the list###
+print(courses[-1])
+#acces first 2 index##
+print(courses[0:3])
+###last 2 index###
+print(courses[1: ])
+##add an element to the existing list
+courses.append("geography")
+print(courses)
+###to insert value to given index
+courses.insert(0,"art")
+print(courses)
+courses.insert(1,"social")
+print(courses)
+###to add multiple value to the list(append only append the second list itself to existing list )
+courses_2 = ["humanities","p.Education"]
+print(courses_2)
+courses.extend(courses_2)
+print(courses)
+###to remove element from list
+courses.remove("math")
+print(courses)
+####to remove the last value from list
+courses.pop()
+print(courses)
 
-
-for i in a1:
-    print(a[i-1])
+####to reverse the value in the list
+courses.reverse()
+print(courses)
 
 
 
