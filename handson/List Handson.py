@@ -30,11 +30,15 @@ while True:
 print(L)
 #####question 1######
 
-a=['python', 'java', 'ruby', 'move', 'c++', 'go', 'c', 'R', 'Swift', 'perl']
+a=['python','java','ruby','move','c++','go','c','r','swift','pearl']
 print(a)
 a1=[1,2,3,4,5,6,7,8,9,10]
 print(a1)
-
-
-for i in a1:
-    print(a[i])
+d1={1:'python',2:'java',3:'ruby',4:'move',5:'c++',6:'go',7:'c',8:'r',9:'swift',10:'pearl'}
+print(d1[1])
+print(d1[2])
+########Question 5
+l1=[7,6,5,4]
+n=5
+l2=[n*l1]
+print(l2)

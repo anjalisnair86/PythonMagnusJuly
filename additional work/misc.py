@@ -56,6 +56,17 @@ print(courses)
 courses.reverse()
 print(courses)
 
+#########to sort
+courses.sort()
+print(courses)
+###for sorting number num.sort()
 
 
+####to find the index##
+courses=["math","English","French"]
+print(courses.index("math"))
+###to chek if element in the list###
+print ('math' in courses
+       ###list example
+number=list(range(20))
 
