@@ -1,18 +1,33 @@
+
+
+#####question 1######
+
+a=['python','java','ruby','move','c++','go','c','r','swift','pearl']
+index_list=[]
+n= int(input("Enter a number <=9: "))
+for i in range(n):
+    index_list.append(int(input("Enter an index: ")))
+print(index_list)
+print("Requested values from the pre defined list:")
+for i in(index_list):
+    print(a[i])
+
+
 ########question 2#############
 
+n=int(input("Enter the length of list: "))
+new_list=[]
+final_list=[]
+for i in range(n):
+    new_list.append(int(input("Enter a value: ")))
+final_list.append(new_list[:3])
+final_list.append(new_list[-3:])
+print("First and Last three values are:")
+print(final_list)
 
-#a1=[10,20,30,40,50,60]
-#b1=[a1[0]]
-#b2=a1[3:5]
-print(b1)
-print(b2)
-b1.extend(b2)
-print(b1)
+
 
 #########question3######
-
-
-
 L1=[5,13,20,25]
 b=[]
 for i in L1:
@@ -21,28 +36,23 @@ for i in L1:
         print(b)
 
 
-        ##########question 4#####
-
-
-        L=["Apple","78","970.03"]
-while True:
-    response = input("Enter a number: ")
-    if response == "quit":
-       break
-    else:
-        L.append(response)
+##########question 4#####
+L=["Apple","78","970.03"]
+n=int(input("Enter how many values to be added: "))
+for i in range(n):
+    L.append(int(input("Enter a value:")))
+print(" The new list is : ")
 print(L)
-#####question 1######
 
-a=['python','java','ruby','move','c++','go','c','r','swift','pearl']
-print(a)
-a1=[1,2,3,4,5,6,7,8,9,10]
-print(a1)
-d1={1:'python',2:'java',3:'ruby',4:'move',5:'c++',6:'go',7:'c',8:'r',9:'swift',10:'pearl'}
-print(d1[1])
-print(d1[2])
+
 ########Question 5
-l1=[7,6,5,4]
-n=5
-l2=[n*l1]
-print(l2)
+L=['x','y','z']
+L2=[]
+n=int(input("Enter repetition: "))
+for i in range(n):
+    #print(L)
+    L2.extend(L)
+print(L2)
+
+
+

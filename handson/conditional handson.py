@@ -64,6 +64,21 @@ if response_experience > 5 :
 else:
     print("Not eligible for bonus")
 
+####Question7####
+
+response_DigitA =input("enter first digit: ")
+response_DigitB = input("enter Second digit: ")
+
+N = response_DigitA + response_DigitB
+print(N)
+if int((response_DigitA + response_DigitB)) ==7:
+    print("special number")
+elif (response_DigitA == 7) or (response_DigitB == 7):
+    print("special number")
+elif (int(N)%7==0):
+    print("Special number")
+else:
+    print("Normal number")
 
 
 
