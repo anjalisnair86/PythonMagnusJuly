@@ -20,6 +20,19 @@ if 15< response_Tem <40:
 else:
     print("can not go for walk")
 
+    #####Question 4#####
+
+response_playerA = int(input("enter score of player A: "))
+response_playerB = int(input("enter score of player B: "))
+
+total = response_playerA + response_playerB
+
+if (response_playerA > 300 or response_playerB > 300) and total<500:
+
+    print("can Team up")
+else:
+    print("can not Team up")
+
       ######question 5####
 
 response_AngleA=input("enter AngleA: ")
@@ -29,4 +42,16 @@ if int((response_AngleA+response_AngleB+response_AngleC)==180):
    print("It is a Triangle")
 else:
     print("it is not a Triangle")
+
+response_playerA = int(input("enter score of player A: "))
+response_playerB = int(input("enter score of player B: "))
+
+total = response_playerA + response_playerB
+
+if (response_playerA > 300 or response_playerB > 300) and total<500:
+
+    print("can Team up")
+else:
+    print("can not Team up")
+
 
