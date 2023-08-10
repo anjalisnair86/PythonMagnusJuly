@@ -53,5 +53,18 @@ if (response_playerA > 300 or response_playerB > 300) and total<500:
     print("can Team up")
 else:
     print("can not Team up")
+    ######Question 6###
+
+
+    response_name = input("enter Name: ")
+response_salary =int(input("enter Salary: "))
+response_experience = int(input("enter years of experience: "))
+if response_experience > 5 :
+    print("Eligible for 5% Bonus")
+else:
+    print("Not eligible for bonus")
+
+
+
 
 
