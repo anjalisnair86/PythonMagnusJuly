@@ -77,3 +77,40 @@ a=int(input("enter a number: "))
 for i in range(10):
     n=a*i
     print(n)
+    ###accept age for N number of candidates and print if they are eligible to vote####
+
+k = int(input("enter number of people: "))
+age_list=[]
+for i in range(k):
+        age_list.append(int (input("enter age: ")))
+print(age_list)
+for n in(age_list):
+        if n>=18:
+                print(n)
+                print("eligible for vote")
+        else:
+                print(n)
+                print("not eligible for vote")
+
+####write a program to chek the number divisible by 2####
+k=int(input("enter a value: "))
+list_a =[]
+for i in range(k):
+    list_a.append(int(input("enter number: ")))
+    print(list_a)
+for n in(list_a):
+    if (n%2 ==0):
+        print("divisible by 2")
+    else:
+        print("not divisible by 2 ")
+        ########find the length of given value##
+k=input("enter a value: ")
+m = len(k)
+print(m)
+
+
+
+
+
+
+
