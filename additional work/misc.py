@@ -70,3 +70,10 @@ print ('math' in courses
        ###list example
 number=list(range(20))
 
+#### write a program to print multiplication table for a user given number up to 10####
+
+a=int(input("enter a number: "))
+
+for i in range(10):
+    n=a*i
+    print(n)
