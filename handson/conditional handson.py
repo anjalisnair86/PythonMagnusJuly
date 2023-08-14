@@ -29,20 +29,6 @@ total = response_playerA + response_playerB
 
 if (response_playerA > 300 or response_playerB > 300) and total<500:
 
-    print("can Team up")
-else:
-    print("can not Team up")
-
-      ######question 5####
-
-response_AngleA=input("enter AngleA: ")
-response_AngleB=input("enter AngleB: ")
-response_AngleC=input("enter AngleC: ")
-if int((response_AngleA+response_AngleB+response_AngleC)==180):
-   print("It is a Triangle")
-else:
-    print("it is not a Triangle")
-
 response_playerA = int(input("enter score of player A: "))
 response_playerB = int(input("enter score of player B: "))
 
@@ -80,6 +66,35 @@ elif (int(N)%7==0):
 else:
     print("Normal number")
 
+    print("can Team up")
+else:
+    print("can not Team up")
+
+      ######question 5####
+
+response_AngleA=input("enter AngleA: ")
+response_AngleB=input("enter AngleB: ")
+response_AngleC=input("enter AngleC: ")
+if int((response_AngleA+response_AngleB+response_AngleC)==180):
+   print("It is a Triangle")
+else:
+    print("it is not a Triangle")
+
+
+
+####question 8
+n = input("enter a string: ")
+print(n)
+k = n[:3]
+print(k)
+if k == "nxt":
+    print("special string")
+for i in n[3:]:
+    if i.isdigit():
+        if(int(i)%2 == 0 or int(i)%7 == 0):
+            print("special string")
+    else:
+        print("not special string")
 
 
 
