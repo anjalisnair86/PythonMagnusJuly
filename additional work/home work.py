@@ -1,9 +1,11 @@
 
-n=int(input("enter a number: "))
-if (n%10)==(n*n)%10:
-    print(n)
+number_A = int(input("enter a number: "))
+number_B = int(input("enter a number: "))
+sum_squares = (number_A*number_A)+(number_B*number_B)
+if (sum_squares>=60):
+    print("sum of the square of the number is greater than or equal to 60")
 else:
-    print("last digit of the number not equal to last digit of square of number")
+    print("sum of the square of the numbers is not greater than or equal to 60")
 
 
 
