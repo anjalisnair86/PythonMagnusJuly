@@ -108,6 +108,21 @@ k=input("enter a value: ")
 m = len(k)
 print(m)
 
+'''
+
+n=int(input("enter a number "))
+j=[]
+for i in range(1,n+1):
+  k=i**2
+
+  j.append(k)
+  print(j)
+s=0
+for k in(j):
+  s=s+k
+
+print(s)
+
 
 
 
