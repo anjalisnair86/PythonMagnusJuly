@@ -1,21 +1,16 @@
-class Car2022:
-    def roof(self):
-        print("Normal roof")
-    def wheel(self):
-        print("Normal roof")
-    def music(self):
-        print("12 inch screen")
-class Car2023(Car2022):
-    def roof(self):
-       # print("sun roof")
-        super().roof()
-    def wheel(self):
-        print("alloy wheel")
-    def music(self):
-        print("16 inch screen")
+class Vehicle:
+    def max_speed(self):
+        print(240)
+    def mileage(self):
+        print(18)
+model1x=Vehicle()
+model1x.max_speed()
 
+class Bus(Vehicle):
+    def seating_capacity(self):
+        print(50)
 
-obj1 = Car2023()
-obj1.roof()
-obj1.music()
+obj1=Bus()
+obj1.max_speed()
+obj1.seating_capacity()
 
