@@ -14,3 +14,4 @@ obj1=Bus()
 obj1.max_speed()
 obj1.seating_capacity()
 
+
