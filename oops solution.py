@@ -42,6 +42,6 @@ class Truck:
             print("car has not started yet")
 
 
-
-
+obj1 = Truck()
+obj1.sound_horn()
 
